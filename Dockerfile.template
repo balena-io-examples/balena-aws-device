@@ -1,10 +1,10 @@
 #base-image for node on any machine using a template var
-FROM resin/%%RESIN_MACHINE_NAME%%-node
+FROM resin/%%RESIN_MACHINE_NAME%%-node:7.10-20170623
 
 # install native deps
 RUN apt-get update && \
     apt-get install -qy \
-     wireless-tools \
+    wireless-tools \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Defines our working directory in container
