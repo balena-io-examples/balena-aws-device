@@ -1,7 +1,7 @@
 {
-  "name": "resin-aws-device",
+  "name": "balena-aws-device",
   "version": "1.0.0",
-  "description": "resin aws demo",
+  "description": "balena aws demo",
   "main": "server.js",
   "dependencies": {
     "aws-iot-device-sdk": "^1.0.12",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/craig-mulligan/resin-aws-device.git"
+    "url": "git+https://github.com/balena-projects/balena-aws-device.git"
   },
   "author": "craig mulligan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/craig-mulligan/resin-aws-device/issues"
+    "url": "https://github.com/balena-projects/balena-aws-device/issues"
   },
-  "homepage": "https://github.com/craig-mulligan/resin-aws-device#readme"
+  "homepage": "https://github.com/balena-projects/balena-aws-device#readme"
 }

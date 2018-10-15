@@ -1,12 +1,12 @@
-### Device boilerplate for resin.io
+### Device boilerplate for balena
 
-This is device code for the [AWS and resin integration](https://github.com/craig-mulligan/resin-aws-lambda).
+This is device code for the [AWS and balena integration](https://github.com/balena-projects/balena-aws-lambda).
 
 ### To Run
 
-#### [Sign up with resin.io and connect a device](http://docs.resin.io/#/pages/installing/gettingStarted.md)
+#### [Sign up with balena and connect a device](http://docs.balena.io/#/pages/installing/gettingStarted.md)
 
-#### Add a few resin app environment variables
+#### Add a few balena app environment variables
 
 ```
 AWS_REGION = "us-east-1"
@@ -17,17 +17,17 @@ LAMBDA = "your lambda endpoint responsible for provisioning devices"
 
 * Clone this repository
 ```
-https://github.com/craig-mulligan/resin-aws-device
+https://github.com/balena-projects/balena-aws-device
 ```
 
-* Add your resin applications endpoint
+* Add your balena application endpoint
 ```
-git remote add resin <username>@git.resin.io:<username>/<appName>.git
+git remote add balena <username>@git.balena.io:<username>/<appName>.git
 ```
 
 * Push your code
 ```
-git push resin master
+git push balena master
 ```
 
-Once your code downloads to the device it will automatically run your app. If the certificates needed to communicate with AWS aren't present it will post it's RESIN_DEVICE_UUID to LAMBDA for the [provisioning process](https://github.com/craig-mulligan/resin-aws-lambda) if the certificates do exist it will run the demo app.
+Once your code downloads to the device it will automatically run your app. If the certificates needed to communicate with AWS aren't present it will post it's RESIN_DEVICE_UUID to LAMBDA for the [provisioning process](https://github.com/balena-projects/balena-aws-lambda) if the certificates do exist it will run the demo app.
