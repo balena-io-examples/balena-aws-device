@@ -4,7 +4,7 @@ This is device code for the [AWS and balena integration](https://github.com/bale
 
 ### To Run
 
-#### [Sign up with balena and connect a device](http://docs.balena.io/#/pages/installing/gettingStarted.md)
+#### [Sign up with balena and connect a device](http://balena.io/docs/learn/getting-started)
 
 #### Add a few balena app environment variables
 
@@ -22,7 +22,7 @@ https://github.com/balena-projects/balena-aws-device
 
 * Add your balena application endpoint
 ```
-git remote add balena <username>@git.balena.io:<username>/<appName>.git
+git remote add balena <username>@git.balena-cloud.com:<username>/<appName>.git
 ```
 
 * Push your code
