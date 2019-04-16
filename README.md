@@ -1,6 +1,6 @@
 ### Device boilerplate for balena
 
-This is device code for the [AWS and balena integration](https://github.com/balena-projects/balena-aws-lambda).
+This is device code for the [AWS and balena integration](https://github.com/balena-io-projects/balena-aws-lambda).
 
 ### To Run
 
