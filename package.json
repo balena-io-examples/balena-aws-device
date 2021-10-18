@@ -4,10 +4,10 @@
   "description": "balena aws demo",
   "main": "server.js",
   "dependencies": {
-    "aws-iot-device-sdk": "^1.0.12",
-    "chance": "^1.0.3",
+    "aws-iot-device-sdk": "^2.2.11",
+    "chance": "^1.1.8",
     "express": "^4.13.4",
-    "socket.io": "^1.4.5",
+    "socket.io": "^4.2.0",
     "wireless-tools": "0.18.1"
   },
   "devDependencies": {},
