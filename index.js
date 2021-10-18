@@ -6,9 +6,9 @@ const iwconfig = require('wireless-tools/iwconfig')
 const TOPIC = 'wifi'
 
 const device = awsIot.device({
-privateKey: new Buffer(process.env.AWS_PRIVATE_KEY, 'base64'),
-clientCert: new Buffer(process.env.AWS_CERT, 'base64'),
-    caCert: new Buffer(process.env.AWS_ROOT_CA, 'base64'),
+privateKey: Buffer.from(process.env.AWS_PRIVATE_KEY, 'base64'),
+clientCert: Buffer.from(process.env.AWS_CERT, 'base64'),
+    caCert: Buffer.from(process.env.AWS_ROOT_CA, 'base64'),
   clientId: process.env.RESIN_DEVICE_UUID,
     region: process.env.AWS_REGION
 })
