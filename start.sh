@@ -6,11 +6,13 @@ else
   then
     echo "Creating AWS certificates"
     curl -X POST -H "Cache-Control: no-cache" -H 'Content-Type: application/json' \
-    -v -d '{ "uuid": "'$RESIN_DEVICE_UUID'", "attributes": { "type": "rpi_3" } }' \
+    -v -d '{ "uuid": "'$RESIN_DEVICE_UUID'", "attributes": {} }' \
     $LAMBDA
   elif [[ "$AWS_CERT" && "$AWS_PRIVATE_KEY" && "$AWS_ROOT_CA" ]]
     then
       echo "AWS certificates exist - running app"
       node /usr/src/app/index.js
+  else
+    echo "Can't start; all expected AWS_ vars must be defined"
   fi
 fi
