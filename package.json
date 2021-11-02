@@ -1,6 +1,6 @@
 {
   "name": "balena-aws-device",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "balena aws demo",
   "main": "server.js",
   "dependencies": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/balena-projects/balena-aws-device/issues"
   },
-  "homepage": "https://github.com/balena-projects/balena-aws-device#readme"
+  "homepage": "https://github.com/balena-projects/balena-aws-device#readme",
+  "versionist": {
+    "publishedAt": "2021-11-02T20:34:26.722Z"
+  }
 }
