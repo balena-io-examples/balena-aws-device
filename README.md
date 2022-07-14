@@ -1,3 +1,5 @@
+**For balena's current cloud integration tools, see the [Provision with cloud IoT](https://www.balena.io/docs/learn/develop/cloud-iot-provisioning/aws/) docs, [aws-iot-provision](https://github.com/balena-io-examples/aws-iot-provision) repo, and [cloud-relay](https://github.com/balena-io-examples/cloud-relay) repo.**
+
 ### Device boilerplate for balena
 
 This is device code for the [AWS and balena integration](https://github.com/balena-io-examples/balena-aws-lambda). It automates one-time device provisioning an X.509 certificate and publish policy for a balena device. The device then can connect to AWS IoT Core and publish application data.
